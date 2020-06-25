@@ -24,9 +24,9 @@ public class HomeController {
 	@RequestMapping("hyundong")
 	public String index() {
 		
-		//병합 문제 해결해봅시다!! HD
+ // merge ok !!!
 		
-		return "index";
+		return "index22";
 		
 	}
 
