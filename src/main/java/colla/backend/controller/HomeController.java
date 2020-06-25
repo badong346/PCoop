@@ -18,19 +18,13 @@ public class HomeController {
 
 	public String home() {
 		
-		//수정 수wjd123123
-		
-		String aa = "aaa";
 		
 		return "home";
 	}
-	@RequestMapping("toindex")
+	@RequestMapping("hyundong")
 	public String index() {
 		
-		//수정 수wjd123123
-		
-		//병합!!!!
-		
+		//병합 문제 해결해봅시다!! HD
 		
 		return "index";
 		
