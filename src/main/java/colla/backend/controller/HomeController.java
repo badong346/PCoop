@@ -29,6 +29,9 @@ public class HomeController {
 		
 		//수정 수wjd123123
 		
+		//병합!!!!
+		
+		
 		return "index";
 		
 	}
