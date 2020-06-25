@@ -20,6 +20,8 @@ public class HomeController {
 		
 		//¼öÁ¤ ¼öwjd123123
 		
+		String aa = "aaa";
+		
 		return "home";
 	}
 	@RequestMapping("toindex")
