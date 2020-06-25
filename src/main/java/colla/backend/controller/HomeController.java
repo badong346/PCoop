@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class HomeController {
 
 	@RequestMapping("/")
+
 	public String home() {
 		
 		//수정 수wjd123123
@@ -27,5 +28,10 @@ public class HomeController {
 		//수정 수wjd123123
 		
 		return "index";
+		
 	}
+
+
 }
+
+		
