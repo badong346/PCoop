@@ -15,21 +15,23 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class HomeController {
 
 	@RequestMapping("/")
-	public String home(Locale locale, Model model) {
 
+	public String home() {
+		
+		//수정 수wjd123123
+		
 		return "home";
 	}
-	@Controller
-	public class HomeController2 {
-
-		@RequestMapping("/")
-		public String home() {
-
-			return "jungsoo";
-		}
-
+	@RequestMapping("toindex")
+	public String index() {
+		
+		//수정 수wjd123123
+		
+		return "index";
 		
 	}
+
+
 }
 
 		
